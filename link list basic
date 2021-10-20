@@ -1,0 +1,42 @@
+
+    /*
+    ////////////////////////////////
+    LINK LIST 
+    int  val =10 ;
+    int *pi = &val;
+    int **ppi =&pi;
+    cout<<pi<<endl;
+    cout<<*pi <<endl;
+    cout<<**ppi<<endl;
+    */  
+ //////////////////////////////////////
+#include <iostream>
+
+using namespace std;
+
+
+class info {
+
+public : 
+  int number ;
+  int age  ;
+    
+};
+
+
+int main()
+{
+
+ 
+ cout<<" link list  " <<endl;
+  info info1;
+    
+  cout<<" info1 number is  " <<info1.number<<endl;
+  cout<<" info1 age is "<<info1.age<<endl;
+  
+  info1.number = 132;
+  info1.age =24;
+
+  
+    return 0;
+}
